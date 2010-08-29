@@ -1,0 +1,13 @@
+ok 1 # skip setup repository and commits (missing SYMLINKS of SYMLINKS)
+ok 2 # skip file renamed from foo to foo/baz (missing SYMLINKS of SYMLINKS)
+ok 3 # skip file renamed from foo/baz to foo (missing SYMLINKS of SYMLINKS)
+ok 4 # skip directory becomes file (missing SYMLINKS of SYMLINKS)
+ok 5 # skip file becomes directory (missing SYMLINKS of SYMLINKS)
+ok 6 # skip file becomes symlink (missing SYMLINKS of SYMLINKS)
+ok 7 # skip symlink becomes file (missing SYMLINKS of SYMLINKS)
+ok 8 # skip binary file becomes symlink (missing SYMLINKS of SYMLINKS)
+ok 9 # skip symlink becomes binary file (missing SYMLINKS of SYMLINKS)
+ok 10 # skip symlink becomes directory (missing SYMLINKS of SYMLINKS)
+ok 11 # skip directory becomes symlink (missing SYMLINKS of SYMLINKS)
+# passed all 11 test(s)
+1..11

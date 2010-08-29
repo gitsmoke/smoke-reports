@@ -1,0 +1,16 @@
+Your filesystem does not allow tabs in filenames
+ok 1 # skip setup (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 2 # skip setup expected files (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 3 # skip check fully quoted output from ls-files (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 4 # skip check fully quoted output from diff-files (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 5 # skip check fully quoted output from diff-index (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 6 # skip check fully quoted output from diff-tree (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 7 # skip check fully quoted output from ls-tree (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 8 # skip setting core.quotepath (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 9 # skip check fully quoted output from ls-files (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 10 # skip check fully quoted output from diff-files (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 11 # skip check fully quoted output from diff-index (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 12 # skip check fully quoted output from diff-tree (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+ok 13 # skip check fully quoted output from ls-tree (missing TABS_IN_FILENAMES of TABS_IN_FILENAMES)
+# passed all 13 test(s)
+1..13
