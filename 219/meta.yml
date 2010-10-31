@@ -1,0 +1,2566 @@
+---
+extra_properties: {}
+file_attributes:
+  -
+    description: t0000-basic.sh
+    end_time: 1288483527.68545
+    start_time: 1288483527.62579
+  -
+    description: t0001-init.sh
+    end_time: 1288483527.72433
+    start_time: 1288483527.62901
+  -
+    description: t0002-gitfile.sh
+    end_time: 1288483527.77954
+    start_time: 1288483527.76248
+  -
+    description: t0003-attributes.sh
+    end_time: 1288483527.87329
+    start_time: 1288483527.82497
+  -
+    description: t0004-unwritable.sh
+    end_time: 1288483527.99046
+    start_time: 1288483527.36525
+  -
+    description: t0005-signals.sh
+    end_time: 1288483528.34989
+    start_time: 1288483527.84477
+  -
+    description: t0006-date.sh
+    end_time: 1288483528.44526
+    start_time: 1288483527.37476
+  -
+    description: t0010-racy-git.sh
+    end_time: 1288483528.4824
+    start_time: 1288483528.15184
+  -
+    description: t0020-crlf.sh
+    end_time: 1288483528.51832
+    start_time: 1288483527.76042
+  -
+    description: t0021-conversion.sh
+    end_time: 1288483528.58464
+    start_time: 1288483527.38647
+  -
+    description: t0022-crlf-rename.sh
+    end_time: 1288483528.6199
+    start_time: 1288483527.97066
+  -
+    description: t0023-crlf-am.sh
+    end_time: 1288483528.75912
+    start_time: 1288483528.11318
+  -
+    description: t0024-crlf-archive.sh
+    end_time: 1288483528.782
+    start_time: 1288483528.77509
+  -
+    description: t0025-crlf-auto.sh
+    end_time: 1288483528.82087
+    start_time: 1288483528.69047
+  -
+    description: t0026-eol-config.sh
+    end_time: 1288483528.90434
+    start_time: 1288483527.35775
+  -
+    description: t0030-stripspace.sh
+    end_time: 1288483528.94477
+    start_time: 1288483528.92183
+  -
+    description: t0040-parse-options.sh
+    end_time: 1288483529.2251
+    start_time: 1288483528.61185
+  -
+    description: t0050-filesystem.sh
+    end_time: 1288483529.27092
+    start_time: 1288483529.12399
+  -
+    description: t0055-beyond-symlinks.sh
+    end_time: 1288483529.34788
+    start_time: 1288483528.66732
+  -
+    description: t0060-path-utils.sh
+    end_time: 1288483529.37183
+    start_time: 1288483528.96978
+  -
+    description: t0061-run-command.sh
+    end_time: 1288483529.53077
+    start_time: 1288483529.09933
+  -
+    description: t0070-fundamental.sh
+    end_time: 1288483529.64249
+    start_time: 1288483529.57442
+  -
+    description: t0080-vcs-svn.sh
+    end_time: 1288483529.68952
+    start_time: 1288483529.67372
+  -
+    description: t0100-previous.sh
+    end_time: 1288483529.70857
+    start_time: 1288483528.77902
+  -
+    description: t0101-at-syntax.sh
+    end_time: 1288483529.72517
+    start_time: 1288483527.66763
+  -
+    description: t0200-gettext-basic.sh
+    end_time: 1288483529.7603
+    start_time: 1288483529.575
+  -
+    description: t0201-gettext-fallbacks.sh
+    end_time: 1288483529.92065
+    start_time: 1288483529.8785
+  -
+    description: t0202-gettext-perl.sh
+    end_time: 1288483530.00798
+    start_time: 1288483529.56917
+  -
+    description: t0203-gettext-setlocale-sanity.sh
+    end_time: 1288483530.23126
+    start_time: 1288483529.58248
+  -
+    description: t0204-gettext-reencode-sanity.sh
+    end_time: 1288483530.43021
+    start_time: 1288483529.57385
+  -
+    description: t0205-gettext-poison.sh
+    end_time: 1288483530.46857
+    start_time: 1288483528.5683
+  -
+    description: t1000-read-tree-m-3way.sh
+    end_time: 1288483530.62757
+    start_time: 1288483530.16345
+  -
+    description: t1001-read-tree-m-2way.sh
+    end_time: 1288483530.67887
+    start_time: 1288483530.62333
+  -
+    description: t1002-read-tree-m-u-2way.sh
+    end_time: 1288483530.76206
+    start_time: 1288483530.70843
+  -
+    description: t1003-read-tree-prefix.sh
+    end_time: 1288483531.16244
+    start_time: 1288483529.98865
+  -
+    description: t1004-read-tree-m-u-wf.sh
+    end_time: 1288483531.3311
+    start_time: 1288483531.13364
+  -
+    description: t1005-read-tree-reset.sh
+    end_time: 1288483531.40517
+    start_time: 1288483530.34454
+  -
+    description: t1006-cat-file.sh
+    end_time: 1288483531.43641
+    start_time: 1288483530.18215
+  -
+    description: t1007-hash-object.sh
+    end_time: 1288483531.60397
+    start_time: 1288483531.50012
+  -
+    description: t1008-read-tree-overlay.sh
+    end_time: 1288483531.79168
+    start_time: 1288483531.06822
+  -
+    description: t1009-read-tree-new-index.sh
+    end_time: 1288483531.91998
+    start_time: 1288483531.35072
+  -
+    description: t1010-mktree.sh
+    end_time: 1288483532.05957
+    start_time: 1288483530.02212
+  -
+    description: t1011-read-tree-sparse-checkout.sh
+    end_time: 1288483532.20589
+    start_time: 1288483532.02883
+  -
+    description: t1012-read-tree-df.sh
+    end_time: 1288483532.22005
+    start_time: 1288483532.18432
+  -
+    description: t1020-subdirectory.sh
+    end_time: 1288483532.3406
+    start_time: 1288483532.10441
+  -
+    description: t1100-commit-tree-options.sh
+    end_time: 1288483532.5137
+    start_time: 1288483532.37672
+  -
+    description: t1200-tutorial.sh
+    end_time: 1288483532.63093
+    start_time: 1288483529.9395
+  -
+    description: t1300-repo-config.sh
+    end_time: 1288483532.78189
+    start_time: 1288483531.58155
+  -
+    description: t1301-shared-repo.sh
+    end_time: 1288483532.97827
+    start_time: 1288483532.42779
+  -
+    description: t1302-repo-version.sh
+    end_time: 1288483533.04074
+    start_time: 1288483527.61887
+  -
+    description: t1303-wacky-config.sh
+    end_time: 1288483533.0975
+    start_time: 1288483532.8178
+  -
+    description: t1304-default-acl.sh
+    end_time: 1288483533.13516
+    start_time: 1288483532.50496
+  -
+    description: t1400-update-ref.sh
+    end_time: 1288483533.1604
+    start_time: 1288483529.75125
+  -
+    description: t1401-symbolic-ref.sh
+    end_time: 1288483533.1991
+    start_time: 1288483531.8559
+  -
+    description: t1402-check-ref-format.sh
+    end_time: 1288483533.22157
+    start_time: 1288483533.08317
+  -
+    description: t1410-reflog.sh
+    end_time: 1288483533.56807
+    start_time: 1288483533.33827
+  -
+    description: t1411-reflog-show.sh
+    end_time: 1288483533.89462
+    start_time: 1288483533.63854
+  -
+    description: t1420-lost-found.sh
+    end_time: 1288483533.95014
+    start_time: 1288483532.57068
+  -
+    description: t1450-fsck.sh
+    end_time: 1288483533.99115
+    start_time: 1288483533.37501
+  -
+    description: t1500-rev-parse.sh
+    end_time: 1288483534.18626
+    start_time: 1288483534.16267
+  -
+    description: t1501-worktree.sh
+    end_time: 1288483534.22705
+    start_time: 1288483533.44149
+  -
+    description: t1502-rev-parse-parseopt.sh
+    end_time: 1288483534.25832
+    start_time: 1288483533.2582
+  -
+    description: t1503-rev-parse-verify.sh
+    end_time: 1288483534.43228
+    start_time: 1288483533.87513
+  -
+    description: t1504-ceiling-dirs.sh
+    end_time: 1288483534.56954
+    start_time: 1288483533.32596
+  -
+    description: t1505-rev-parse-last.sh
+    end_time: 1288483534.60535
+    start_time: 1288483534.4706
+  -
+    description: t1506-rev-parse-diagnosis.sh
+    end_time: 1288483534.66868
+    start_time: 1288483531.58377
+  -
+    description: t1507-rev-parse-upstream.sh
+    end_time: 1288483534.70731
+    start_time: 1288483534.47767
+  -
+    description: t1508-at-combinations.sh
+    end_time: 1288483534.75823
+    start_time: 1288483534.65964
+  -
+    description: t1509-root-worktree.sh
+    end_time: 1288483534.93549
+    start_time: 1288483534.87728
+  -
+    description: t1510-repo-setup.sh
+    end_time: 1288483534.98807
+    start_time: 1288483534.907
+  -
+    description: t2000-checkout-cache-clash.sh
+    end_time: 1288483535.01119
+    start_time: 1288483534.74802
+  -
+    description: t2001-checkout-cache-clash.sh
+    end_time: 1288483535.05089
+    start_time: 1288483534.7495
+  -
+    description: t2002-checkout-cache-u.sh
+    end_time: 1288483535.07448
+    start_time: 1288483533.59498
+  -
+    description: t2003-checkout-cache-mkdir.sh
+    end_time: 1288483535.18614
+    start_time: 1288483535.09837
+  -
+    description: t2004-checkout-cache-temp.sh
+    end_time: 1288483535.25184
+    start_time: 1288483535.20374
+  -
+    description: t2005-checkout-index-symlinks.sh
+    end_time: 1288483535.44964
+    start_time: 1288483535.22139
+  -
+    description: t2006-checkout-index-basic.sh
+    end_time: 1288483535.47319
+    start_time: 1288483534.47189
+  -
+    description: t2007-checkout-symlink.sh
+    end_time: 1288483535.50106
+    start_time: 1288483535.17969
+  -
+    description: t2008-checkout-subdir.sh
+    end_time: 1288483535.52429
+    start_time: 1288483535.17876
+  -
+    description: t2009-checkout-statinfo.sh
+    end_time: 1288483535.54091
+    start_time: 1288483533.39877
+  -
+    description: t2010-checkout-ambiguous.sh
+    end_time: 1288483535.60934
+    start_time: 1288483535.49688
+  -
+    description: t2011-checkout-invalid-head.sh
+    end_time: 1288483535.9352
+    start_time: 1288483535.77968
+  -
+    description: t2012-checkout-last.sh
+    end_time: 1288483536.05166
+    start_time: 1288483535.78473
+  -
+    description: t2013-checkout-submodule.sh
+    end_time: 1288483536.09791
+    start_time: 1288483535.5389
+  -
+    description: t2014-switch.sh
+    end_time: 1288483536.29423
+    start_time: 1288483536.16081
+  -
+    description: t2015-checkout-unborn.sh
+    end_time: 1288483536.32501
+    start_time: 1288483534.90656
+  -
+    description: t2016-checkout-patch.sh
+    end_time: 1288483536.36496
+    start_time: 1288483536.31635
+  -
+    description: t2017-checkout-orphan.sh
+    end_time: 1288483536.59448
+    start_time: 1288483536.27537
+  -
+    description: t2018-checkout-branch.sh
+    end_time: 1288483536.68045
+    start_time: 1288483536.54207
+  -
+    description: t2030-unresolve-info.sh
+    end_time: 1288483536.78519
+    start_time: 1288483536.64581
+  -
+    description: t2050-git-dir-relative.sh
+    end_time: 1288483536.85148
+    start_time: 1288483535.76781
+  -
+    description: t2100-update-cache-badpath.sh
+    end_time: 1288483536.95188
+    start_time: 1288483536.86936
+  -
+    description: t2101-update-index-reupdate.sh
+    end_time: 1288483536.98918
+    start_time: 1288483536.87733
+  -
+    description: t2102-update-index-symlinks.sh
+    end_time: 1288483537.21314
+    start_time: 1288483536.73681
+  -
+    description: t2103-update-index-ignore-missing.sh
+    end_time: 1288483537.24304
+    start_time: 1288483535.86682
+  -
+    description: t2104-update-index-skip-worktree.sh
+    end_time: 1288483537.36605
+    start_time: 1288483537.22808
+  -
+    description: t2105-update-index-gitfile.sh
+    end_time: 1288483537.64847
+    start_time: 1288483537.08158
+  -
+    description: t2106-update-index-assume-unchanged.sh
+    end_time: 1288483537.68842
+    start_time: 1288483537.17436
+  -
+    description: t2107-update-index-basic.sh
+    end_time: 1288483537.74642
+    start_time: 1288483537.60159
+  -
+    description: t2200-add-update.sh
+    end_time: 1288483537.79065
+    start_time: 1288483537.01607
+  -
+    description: t2201-add-update-typechange.sh
+    end_time: 1288483537.95461
+    start_time: 1288483537.51975
+  -
+    description: t2202-add-addremove.sh
+    end_time: 1288483537.99458
+    start_time: 1288483537.84259
+  -
+    description: t2203-add-intent.sh
+    end_time: 1288483538.09711
+    start_time: 1288483537.95364
+  -
+    description: t2204-add-ignored.sh
+    end_time: 1288483538.14579
+    start_time: 1288483537.97116
+  -
+    description: t2300-cd-to-toplevel.sh
+    end_time: 1288483538.17474
+    start_time: 1288483535.30977
+  -
+    description: t3000-ls-files-others.sh
+    end_time: 1288483538.26366
+    start_time: 1288483538.21866
+  -
+    description: t3001-ls-files-others-exclude.sh
+    end_time: 1288483538.32404
+    start_time: 1288483537.88599
+  -
+    description: t3002-ls-files-dashpath.sh
+    end_time: 1288483538.39452
+    start_time: 1288483538.22829
+  -
+    description: t3003-ls-files-exclude.sh
+    end_time: 1288483538.49798
+    start_time: 1288483536.09664
+  -
+    description: t3004-ls-files-basic.sh
+    end_time: 1288483538.65415
+    start_time: 1288483537.40936
+  -
+    description: t3010-ls-files-killed-modified.sh
+    end_time: 1288483538.78916
+    start_time: 1288483538.71416
+  -
+    description: t3020-ls-files-error-unmatch.sh
+    end_time: 1288483538.9824
+    start_time: 1288483538.91937
+  -
+    description: t3030-merge-recursive.sh
+    end_time: 1288483539.10386
+    start_time: 1288483538.44386
+  -
+    description: t3031-merge-criscross.sh
+    end_time: 1288483539.13269
+    start_time: 1288483538.57417
+  -
+    description: t3032-merge-recursive-options.sh
+    end_time: 1288483539.17335
+    start_time: 1288483538.57577
+  -
+    description: t3040-subprojects-basic.sh
+    end_time: 1288483539.33677
+    start_time: 1288483538.74627
+  -
+    description: t3050-subprojects-fetch.sh
+    end_time: 1288483539.48661
+    start_time: 1288483539.29869
+  -
+    description: t3060-ls-files-with-tree.sh
+    end_time: 1288483539.51517
+    start_time: 1288483538.88584
+  -
+    description: t3100-ls-tree-restrict.sh
+    end_time: 1288483539.59642
+    start_time: 1288483539.32082
+  -
+    description: t3101-ls-tree-dirname.sh
+    end_time: 1288483540.10188
+    start_time: 1288483539.83948
+  -
+    description: t3200-branch.sh
+    end_time: 1288483540.14715
+    start_time: 1288483539.53131
+  -
+    description: t3201-branch-contains.sh
+    end_time: 1288483540.22668
+    start_time: 1288483539.37537
+  -
+    description: t3202-show-branch-octopus.sh
+    end_time: 1288483540.74251
+    start_time: 1288483540.30574
+  -
+    description: t3203-branch-output.sh
+    end_time: 1288483541.39314
+    start_time: 1288483541.09538
+  -
+    description: t3210-pack-refs.sh
+    end_time: 1288483541.49859
+    start_time: 1288483538.71308
+  -
+    description: t3300-funny-names.sh
+    end_time: 1288483541.7416
+    start_time: 1288483540.55932
+  -
+    description: t3301-notes.sh
+    end_time: 1288483542.06549
+    start_time: 1288483535.82483
+  -
+    description: t3302-notes-index-expensive.sh
+    end_time: 1288483544.32871
+    start_time: 1288483541.98749
+  -
+    description: t3303-notes-subtrees.sh
+    end_time: 1288483544.88644
+    start_time: 1288483542.56058
+  -
+    description: t3304-notes-mixed.sh
+    end_time: 1288483545.8367
+    start_time: 1288483539.64843
+  -
+    description: t3305-notes-fanout.sh
+    end_time: 1288483546.95941
+    start_time: 1288483542.27869
+  -
+    description: t3306-notes-prune.sh
+    end_time: 1288483547.08325
+    start_time: 1288483545.26692
+  -
+    description: t3307-notes-man.sh
+    end_time: 1288483547.37305
+    start_time: 1288483539.0392
+  -
+    description: t3308-notes-merge.sh
+    end_time: 1288483548.66655
+    start_time: 1288483547.73461
+  -
+    description: t3309-notes-merge-auto-resolve.sh
+    end_time: 1288483549.57214
+    start_time: 1288483546.35727
+  -
+    description: t3310-notes-merge-manual-resolve.sh
+    end_time: 1288483552.07984
+    start_time: 1288483547.36166
+  -
+    description: t3311-notes-merge-fanout.sh
+    end_time: 1288483552.95057
+    start_time: 1288483549.18275
+  -
+    description: t3400-rebase.sh
+    end_time: 1288483553.36029
+    start_time: 1288483552.37247
+  -
+    description: t3401-rebase-partial.sh
+    end_time: 1288483558.06163
+    start_time: 1288483549.92312
+  -
+    description: t3402-rebase-merge.sh
+    end_time: 1288483558.60127
+    start_time: 1288483553.51996
+  -
+    description: t3403-rebase-skip.sh
+    end_time: 1288483559.1532
+    start_time: 1288483545.15222
+  -
+    description: t3404-rebase-interactive.sh
+    end_time: 1288483560.7276
+    start_time: 1288483554.06117
+  -
+    description: t3405-rebase-malformed.sh
+    end_time: 1288483560.94522
+    start_time: 1288483534.47681
+  -
+    description: t3406-rebase-message.sh
+    end_time: 1288483565.37892
+    start_time: 1288483559.56543
+  -
+    description: t3407-rebase-abort.sh
+    end_time: 1288483566.08388
+    start_time: 1288483559.01273
+  -
+    description: t3408-rebase-multi-line.sh
+    end_time: 1288483570.52545
+    start_time: 1288483561.4476
+  -
+    description: t3409-rebase-preserve-merges.sh
+    end_time: 1288483571.68385
+    start_time: 1288483567.5786
+  -
+    description: t3410-rebase-preserve-dropped-merges.sh
+    end_time: 1288483573.34105
+    start_time: 1288483566.35961
+  -
+    description: t3411-rebase-preserve-around-merges.sh
+    end_time: 1288483573.87533
+    start_time: 1288483573.73732
+  -
+    description: t3412-rebase-root.sh
+    end_time: 1288483574.06468
+    start_time: 1288483570.8609
+  -
+    description: t3413-rebase-hook.sh
+    end_time: 1288483574.73972
+    start_time: 1288483571.99149
+  -
+    description: t3414-rebase-preserve-onto.sh
+    end_time: 1288483574.7637
+    start_time: 1288483574.30478
+  -
+    description: t3415-rebase-autosquash.sh
+    end_time: 1288483575.09537
+    start_time: 1288483575.01248
+  -
+    description: t3416-rebase-onto-threedots.sh
+    end_time: 1288483575.27589
+    start_time: 1288483575.07835
+  -
+    description: t3417-rebase-whitespace-fix.sh
+    end_time: 1288483575.34276
+    start_time: 1288483574.48524
+  -
+    description: t3418-rebase-continue.sh
+    end_time: 1288483575.41351
+    start_time: 1288483559.56916
+  -
+    description: t3419-rebase-patch-id.sh
+    end_time: 1288483575.51916
+    start_time: 1288483575.37937
+  -
+    description: t3500-cherry.sh
+    end_time: 1288483576.63239
+    start_time: 1288483575.54397
+  -
+    description: t3501-revert-cherry-pick.sh
+    end_time: 1288483577.25348
+    start_time: 1288483575.96054
+  -
+    description: t3502-cherry-pick-merge.sh
+    end_time: 1288483577.53381
+    start_time: 1288483575.69513
+  -
+    description: t3503-cherry-pick-root.sh
+    end_time: 1288483578.16286
+    start_time: 1288483575.76713
+  -
+    description: t3504-cherry-pick-rerere.sh
+    end_time: 1288483578.84259
+    start_time: 1288483578.54453
+  -
+    description: t3505-cherry-pick-empty.sh
+    end_time: 1288483578.93911
+    start_time: 1288483542.63552
+  -
+    description: t3506-cherry-pick-ff.sh
+    end_time: 1288483579.90086
+    start_time: 1288483576.90429
+  -
+    description: t3507-cherry-pick-conflict.sh
+    end_time: 1288483580.1788
+    start_time: 1288483577.44816
+  -
+    description: t3508-cherry-pick-many-commits.sh
+    end_time: 1288483580.37582
+    start_time: 1288483579.10385
+  -
+    description: t3509-cherry-pick-merge-df.sh
+    end_time: 1288483580.92612
+    start_time: 1288483580.51993
+  -
+    description: t3600-rm.sh
+    end_time: 1288483581.51516
+    start_time: 1288483561.31311
+  -
+    description: t3700-add.sh
+    end_time: 1288483581.97484
+    start_time: 1288483581.76591
+  -
+    description: t3701-add-interactive.sh
+    end_time: 1288483582.47465
+    start_time: 1288483582.14976
+  -
+    description: t3702-add-edit.sh
+    end_time: 1288483584.70645
+    start_time: 1288483540.54033
+  -
+    description: t3800-mktag.sh
+    end_time: 1288483585.13344
+    start_time: 1288483581.23274
+  -
+    description: t3900-i18n-commit.sh
+    end_time: 1288483585.48713
+    start_time: 1288483585.01773
+  -
+    description: t3901-i18n-patch.sh
+    end_time: 1288483585.63477
+    start_time: 1288483585.46549
+  -
+    description: t3902-quoted.sh
+    end_time: 1288483585.80145
+    start_time: 1288483579.25097
+  -
+    description: t3903-stash.sh
+    end_time: 1288483585.86079
+    start_time: 1288483582.70792
+  -
+    description: t3904-stash-patch.sh
+    end_time: 1288483586.00337
+    start_time: 1288483585.88088
+  -
+    description: t4000-diff-format.sh
+    end_time: 1288483586.07747
+    start_time: 1288483585.73882
+  -
+    description: t4001-diff-rename.sh
+    end_time: 1288483586.46065
+    start_time: 1288483586.04856
+  -
+    description: t4002-diff-basic.sh
+    end_time: 1288483586.73882
+    start_time: 1288483586.2546
+  -
+    description: t4003-diff-rename-1.sh
+    end_time: 1288483587.00785
+    start_time: 1288483586.31191
+  -
+    description: t4004-diff-rename-symlink.sh
+    end_time: 1288483587.042
+    start_time: 1288483577.80827
+  -
+    description: t4005-diff-rename-2.sh
+    end_time: 1288483587.24861
+    start_time: 1288483586.18459
+  -
+    description: t4006-diff-mode.sh
+    end_time: 1288483587.31956
+    start_time: 1288483586.77852
+  -
+    description: t4007-rename-3.sh
+    end_time: 1288483587.502
+    start_time: 1288483587.03451
+  -
+    description: t4008-diff-break-rewrite.sh
+    end_time: 1288483587.83128
+    start_time: 1288483587.7104
+  -
+    description: t4009-diff-rename-4.sh
+    end_time: 1288483588.69785
+    start_time: 1288483587.8226
+  -
+    description: t4010-diff-pathspec.sh
+    end_time: 1288483588.86127
+    start_time: 1288483559.13307
+  -
+    description: t4011-diff-symlink.sh
+    end_time: 1288483589.03699
+    start_time: 1288483588.04811
+  -
+    description: t4012-diff-binary.sh
+    end_time: 1288483589.76667
+    start_time: 1288483589.27258
+  -
+    description: t4013-diff-various.sh
+    end_time: 1288483589.93975
+    start_time: 1288483589.14665
+  -
+    description: t4014-format-patch.sh
+    end_time: 1288483590.01985
+    start_time: 1288483589.97474
+  -
+    description: t4015-diff-whitespace.sh
+    end_time: 1288483590.32825
+    start_time: 1288483588.98757
+  -
+    description: t4016-diff-quote.sh
+    end_time: 1288483590.43381
+    start_time: 1288483587.53867
+  -
+    description: t4017-diff-retval.sh
+    end_time: 1288483590.54683
+    start_time: 1288483590.48861
+  -
+    description: t4018-diff-funcname.sh
+    end_time: 1288483590.87133
+    start_time: 1288483590.68444
+  -
+    description: t4019-diff-wserror.sh
+    end_time: 1288483590.94741
+    start_time: 1288483590.76205
+  -
+    description: t4020-diff-external.sh
+    end_time: 1288483591.01427
+    start_time: 1288483590.63803
+  -
+    description: t4021-format-patch-numbered.sh
+    end_time: 1288483591.24938
+    start_time: 1288483591.12618
+  -
+    description: t4022-diff-rewrite.sh
+    end_time: 1288483591.33474
+    start_time: 1288483591.30867
+  -
+    description: t4023-diff-rename-typechange.sh
+    end_time: 1288483591.68739
+    start_time: 1288483591.44265
+  -
+    description: t4024-diff-optimize-common.sh
+    end_time: 1288483591.84061
+    start_time: 1288483580.43315
+  -
+    description: t4025-hunk-header.sh
+    end_time: 1288483592.04384
+    start_time: 1288483591.93461
+  -
+    description: t4026-color.sh
+    end_time: 1288483592.1286
+    start_time: 1288483591.30178
+  -
+    description: t4027-diff-submodule.sh
+    end_time: 1288483592.51008
+    start_time: 1288483592.35837
+  -
+    description: t4028-format-patch-mime-headers.sh
+    end_time: 1288483592.58447
+    start_time: 1288483591.60531
+  -
+    description: t4029-diff-trailing-space.sh
+    end_time: 1288483592.71077
+    start_time: 1288483592.28939
+  -
+    description: t4030-diff-textconv.sh
+    end_time: 1288483592.82029
+    start_time: 1288483592.76728
+  -
+    description: t4031-diff-rewrite-binary.sh
+    end_time: 1288483593.02819
+    start_time: 1288483592.06926
+  -
+    description: t4032-diff-inter-hunk-context.sh
+    end_time: 1288483593.06827
+    start_time: 1288483592.98113
+  -
+    description: t4033-diff-patience.sh
+    end_time: 1288483593.31084
+    start_time: 1288483587.56467
+  -
+    description: t4034-diff-words.sh
+    end_time: 1288483593.42721
+    start_time: 1288483593.0648
+  -
+    description: t4035-diff-quiet.sh
+    end_time: 1288483593.56975
+    start_time: 1288483593.2777
+  -
+    description: t4036-format-patch-signer-mime.sh
+    end_time: 1288483593.74988
+    start_time: 1288483590.92771
+  -
+    description: t4037-diff-r-t-dirs.sh
+    end_time: 1288483593.85812
+    start_time: 1288483593.70518
+  -
+    description: t4038-diff-combined.sh
+    end_time: 1288483593.88579
+    start_time: 1288483593.78985
+  -
+    description: t4039-diff-assume-unchanged.sh
+    end_time: 1288483593.96531
+    start_time: 1288483593.34744
+  -
+    description: t4040-whitespace-status.sh
+    end_time: 1288483594.2929
+    start_time: 1288483593.84698
+  -
+    description: t4041-diff-submodule-option.sh
+    end_time: 1288483594.38533
+    start_time: 1288483594.21862
+  -
+    description: t4042-diff-textconv-caching.sh
+    end_time: 1288483594.62384
+    start_time: 1288483594.1992
+  -
+    description: t4043-diff-rename-binary.sh
+    end_time: 1288483594.68975
+    start_time: 1288483594.12058
+  -
+    description: t4044-diff-index-unique-abbrev.sh
+    end_time: 1288483594.95712
+    start_time: 1288483594.88928
+  -
+    description: t4045-diff-relative.sh
+    end_time: 1288483595.30473
+    start_time: 1288483594.98766
+  -
+    description: t4046-diff-bulk-move.sh
+    end_time: 1288483595.38043
+    start_time: 1288483595.16982
+  -
+    description: t4100-apply-stat.sh
+    end_time: 1288483595.65891
+    start_time: 1288483595.62708
+  -
+    description: t4101-apply-nonl.sh
+    end_time: 1288483595.6926
+    start_time: 1288483595.56164
+  -
+    description: t4102-apply-rename.sh
+    end_time: 1288483595.72276
+    start_time: 1288483594.76991
+  -
+    description: t4103-apply-binary.sh
+    end_time: 1288483596.01186
+    start_time: 1288483594.07757
+  -
+    description: t4104-apply-boundary.sh
+    end_time: 1288483596.11403
+    start_time: 1288483595.96483
+  -
+    description: t4105-apply-fuzz.sh
+    end_time: 1288483596.15548
+    start_time: 1288483596.08317
+  -
+    description: t4106-apply-stdin.sh
+    end_time: 1288483596.37212
+    start_time: 1288483594.88319
+  -
+    description: t4107-apply-ignore-whitespace.sh
+    end_time: 1288483596.63896
+    start_time: 1288483593.49501
+  -
+    description: t4109-apply-multifrag.sh
+    end_time: 1288483596.68538
+    start_time: 1288483596.51036
+  -
+    description: t4110-apply-scan.sh
+    end_time: 1288483596.97973
+    start_time: 1288483596.43602
+  -
+    description: t4111-apply-subdir.sh
+    end_time: 1288483597.0278
+    start_time: 1288483596.73987
+  -
+    description: t4112-apply-renames.sh
+    end_time: 1288483597.09647
+    start_time: 1288483596.93818
+  -
+    description: t4113-apply-ending.sh
+    end_time: 1288483597.3588
+    start_time: 1288483596.70453
+  -
+    description: t4114-apply-typechange.sh
+    end_time: 1288483597.45523
+    start_time: 1288483597.40354
+  -
+    description: t4115-apply-symlink.sh
+    end_time: 1288483597.63248
+    start_time: 1288483597.58945
+  -
+    description: t4116-apply-reverse.sh
+    end_time: 1288483597.68054
+    start_time: 1288483597.39416
+  -
+    description: t4117-apply-reject.sh
+    end_time: 1288483597.7115
+    start_time: 1288483597.49919
+  -
+    description: t4118-apply-empty-context.sh
+    end_time: 1288483597.78974
+    start_time: 1288483595.85656
+  -
+    description: t4119-apply-config.sh
+    end_time: 1288483597.8777
+    start_time: 1288483597.00948
+  -
+    description: t4120-apply-popt.sh
+    end_time: 1288483598.14639
+    start_time: 1288483588.12003
+  -
+    description: t4121-apply-diffs.sh
+    end_time: 1288483598.20209
+    start_time: 1288483597.97022
+  -
+    description: t4122-apply-symlink-inside.sh
+    end_time: 1288483598.23298
+    start_time: 1288483597.93578
+  -
+    description: t4123-apply-shrink.sh
+    end_time: 1288483598.40315
+    start_time: 1288483598.01914
+  -
+    description: t4124-apply-ws-rule.sh
+    end_time: 1288483598.55413
+    start_time: 1288483598.17751
+  -
+    description: t4125-apply-ws-fuzz.sh
+    end_time: 1288483598.63886
+    start_time: 1288483598.57435
+  -
+    description: t4126-apply-empty.sh
+    end_time: 1288483598.72044
+    start_time: 1288483598.34663
+  -
+    description: t4127-apply-same-fn.sh
+    end_time: 1288483598.82038
+    start_time: 1288483598.75664
+  -
+    description: t4128-apply-root.sh
+    end_time: 1288483598.92609
+    start_time: 1288483597.95057
+  -
+    description: t4129-apply-samemode.sh
+    end_time: 1288483598.95212
+    start_time: 1288483598.63102
+  -
+    description: t4130-apply-criss-cross-rename.sh
+    end_time: 1288483599.38022
+    start_time: 1288483598.52773
+  -
+    description: t4131-apply-fake-ancestor.sh
+    end_time: 1288483600.01974
+    start_time: 1288483599.43115
+  -
+    description: t4132-apply-removal.sh
+    end_time: 1288483600.54709
+    start_time: 1288483598.9249
+  -
+    description: t4133-apply-filenames.sh
+    end_time: 1288483601.22259
+    start_time: 1288483600.31452
+  -
+    description: t4134-apply-submodule.sh
+    end_time: 1288483601.7007
+    start_time: 1288483601.07146
+  -
+    description: t4135-apply-weird-filenames.sh
+    end_time: 1288483602.1346
+    start_time: 1288483601.53794
+  -
+    description: t4150-am.sh
+    end_time: 1288483602.2371
+    start_time: 1288483601.96349
+  -
+    description: t4151-am-abort.sh
+    end_time: 1288483602.55564
+    start_time: 1288483599.31835
+  -
+    description: t4200-rerere.sh
+    end_time: 1288483603.38988
+    start_time: 1288483599.90686
+  -
+    description: t4201-shortlog.sh
+    end_time: 1288483603.71423
+    start_time: 1288483603.63888
+  -
+    description: t4202-log.sh
+    end_time: 1288483603.73939
+    start_time: 1288483597.67199
+  -
+    description: t4203-mailmap.sh
+    end_time: 1288483604.55176
+    start_time: 1288483604.15202
+  -
+    description: t4204-patch-id.sh
+    end_time: 1288483604.58342
+    start_time: 1288483599.34421
+  -
+    description: t4205-log-pretty-formats.sh
+    end_time: 1288483605.6247
+    start_time: 1288483604.07318
+  -
+    description: t4206-log-follow-harder-copies.sh
+    end_time: 1288483606.66619
+    start_time: 1288483603.70454
+  -
+    description: t4207-log-decoration-colors.sh
+    end_time: 1288483606.88587
+    start_time: 1288483604.7998
+  -
+    description: t4252-am-options.sh
+    end_time: 1288483607.80221
+    start_time: 1288483607.25051
+  -
+    description: t4253-am-keep-cr-dos.sh
+    end_time: 1288483608.23857
+    start_time: 1288483605.72536
+  -
+    description: t4300-merge-tree.sh
+    end_time: 1288483609.44954
+    start_time: 1288483603.12745
+  -
+    description: t5000-tar-tree.sh
+    end_time: 1288483610.03431
+    start_time: 1288483609.74917
+  -
+    description: t5001-archive-attr.sh
+    end_time: 1288483610.28508
+    start_time: 1288483602.58547
+  -
+    description: t5100-mailinfo.sh
+    end_time: 1288483610.9234
+    start_time: 1288483610.81713
+  -
+    description: t5150-request-pull.sh
+    end_time: 1288483611.36384
+    start_time: 1288483610.33838
+  -
+    description: t5300-pack-object.sh
+    end_time: 1288483612.01672
+    start_time: 1288483608.19884
+  -
+    description: t5301-sliding-window.sh
+    end_time: 1288483612.12566
+    start_time: 1288483611.80102
+  -
+    description: t5302-pack-index.sh
+    end_time: 1288483612.58532
+    start_time: 1288483612.39615
+  -
+    description: t5303-pack-corruption-resilience.sh
+    end_time: 1288483612.98987
+    start_time: 1288483612.52774
+  -
+    description: t5304-prune.sh
+    end_time: 1288483613.49527
+    start_time: 1288483613.3493
+  -
+    description: t5305-include-tag.sh
+    end_time: 1288483613.54832
+    start_time: 1288483613.02647
+  -
+    description: t5306-pack-nobase.sh
+    end_time: 1288483613.90525
+    start_time: 1288483613.76024
+  -
+    description: t5307-pack-missing-commit.sh
+    end_time: 1288483614.84472
+    start_time: 1288483608.69771
+  -
+    description: t5400-send-pack.sh
+    end_time: 1288483617.77588
+    start_time: 1288483615.06349
+  -
+    description: t5401-update-hooks.sh
+    end_time: 1288483619.20561
+    start_time: 1288483618.15942
+  -
+    description: t5402-post-merge-hook.sh
+    end_time: 1288483620.91424
+    start_time: 1288483598.95061
+  -
+    description: t5403-post-checkout-hook.sh
+    end_time: 1288483623.29381
+    start_time: 1288483606.95783
+  -
+    description: t5404-tracking-branches.sh
+    end_time: 1288483623.37325
+    start_time: 1288483621.20738
+  -
+    description: t5405-send-pack-rewind.sh
+    end_time: 1288483623.81002
+    start_time: 1288483614.98677
+  -
+    description: t5406-remote-rejects.sh
+    end_time: 1288483624.13619
+    start_time: 1288483581.11206
+  -
+    description: t5407-post-rewrite-hook.sh
+    end_time: 1288483624.58204
+    start_time: 1288483624.46255
+  -
+    description: t5500-fetch-pack.sh
+    end_time: 1288483624.6289
+    start_time: 1288483624.07817
+  -
+    description: t5502-quickfetch.sh
+    end_time: 1288483625.26002
+    start_time: 1288483621.87389
+  -
+    description: t5503-tagfollow.sh
+    end_time: 1288483626.9258
+    start_time: 1288483625.11979
+  -
+    description: t5505-remote.sh
+    end_time: 1288483627.07643
+    start_time: 1288483623.59837
+  -
+    description: t5506-remote-groups.sh
+    end_time: 1288483627.48817
+    start_time: 1288483627.36031
+  -
+    description: t5510-fetch.sh
+    end_time: 1288483627.70501
+    start_time: 1288483619.73188
+  -
+    description: t5511-refspec.sh
+    end_time: 1288483629.2275
+    start_time: 1288483620.95978
+  -
+    description: t5512-ls-remote.sh
+    end_time: 1288483629.27404
+    start_time: 1288483623.48877
+  -
+    description: t5513-fetch-track.sh
+    end_time: 1288483629.3868
+    start_time: 1288483628.06758
+  -
+    description: t5514-fetch-multiple.sh
+    end_time: 1288483630.46716
+    start_time: 1288483629.59934
+  -
+    description: t5515-fetch-merge-logic.sh
+    end_time: 1288483630.81039
+    start_time: 1288483613.93566
+  -
+    description: t5516-fetch-push.sh
+    end_time: 1288483630.86937
+    start_time: 1288483548.53351
+  -
+    description: t5517-push-mirror.sh
+    end_time: 1288483631.24572
+    start_time: 1288483630.86124
+  -
+    description: t5518-fetch-exit-status.sh
+    end_time: 1288483631.58823
+    start_time: 1288483631.28949
+  -
+    description: t5519-push-alternates.sh
+    end_time: 1288483631.80808
+    start_time: 1288483629.67082
+  -
+    description: t5520-pull.sh
+    end_time: 1288483631.85221
+    start_time: 1288483627.32481
+  -
+    description: t5521-pull-options.sh
+    end_time: 1288483632.02698
+    start_time: 1288483631.54306
+  -
+    description: t5522-pull-symlink.sh
+    end_time: 1288483632.05069
+    start_time: 1288483631.92768
+  -
+    description: t5523-push-upstream.sh
+    end_time: 1288483632.33531
+    start_time: 1288483629.47392
+  -
+    description: t5524-pull-msg.sh
+    end_time: 1288483633.70982
+    start_time: 1288483632.30013
+  -
+    description: t5525-fetch-tagopt.sh
+    end_time: 1288483634.20626
+    start_time: 1288483632.85776
+  -
+    description: t5526-fetch-submodules.sh
+    end_time: 1288483634.23059
+    start_time: 1288483632.36164
+  -
+    description: t5530-upload-pack-error.sh
+    end_time: 1288483634.5517
+    start_time: 1288483634.37268
+  -
+    description: t5531-deep-submodule-push.sh
+    end_time: 1288483634.73712
+    start_time: 1288483634.6558
+  -
+    description: t5540-http-push.sh
+    end_time: 1288483635.51529
+    start_time: 1288483632.27474
+  -
+    description: t5541-http-push.sh
+    end_time: 1288483635.62285
+    start_time: 1288483633.02048
+  -
+    description: t5550-http-fetch.sh
+    end_time: 1288483635.81086
+    start_time: 1288483634.40807
+  -
+    description: t5551-http-fetch.sh
+    end_time: 1288483636.10309
+    start_time: 1288483635.8922
+  -
+    description: t5560-http-backend-noserver.sh
+    end_time: 1288483636.27507
+    start_time: 1288483636.23784
+  -
+    description: t5561-http-backend.sh
+    end_time: 1288483636.37486
+    start_time: 1288483636.10048
+  -
+    description: t5600-clone-fail-cleanup.sh
+    end_time: 1288483636.94756
+    start_time: 1288483636.5849
+  -
+    description: t5601-clone.sh
+    end_time: 1288483637.22649
+    start_time: 1288483635.93622
+  -
+    description: t5602-clone-remote-exec.sh
+    end_time: 1288483637.32533
+    start_time: 1288483634.93822
+  -
+    description: t5700-clone-reference.sh
+    end_time: 1288483637.67363
+    start_time: 1288483637.41971
+  -
+    description: t5701-clone-local.sh
+    end_time: 1288483637.72237
+    start_time: 1288483634.44844
+  -
+    description: t5702-clone-options.sh
+    end_time: 1288483638.04254
+    start_time: 1288483636.8708
+  -
+    description: t5704-bundle.sh
+    end_time: 1288483638.125
+    start_time: 1288483637.69456
+  -
+    description: t5705-clone-2gb.sh
+    end_time: 1288483638.65884
+    start_time: 1288483638.24769
+  -
+    description: t5706-clone-branch.sh
+    end_time: 1288483639.00579
+    start_time: 1288483638.42177
+  -
+    description: t5710-info-alternate.sh
+    end_time: 1288483639.65806
+    start_time: 1288483639.33341
+  -
+    description: t5800-remote-helpers.sh
+    end_time: 1288483640.02222
+    start_time: 1288483637.35325
+  -
+    description: t6000-rev-list-misc.sh
+    end_time: 1288483640.25148
+    start_time: 1288483640.21027
+  -
+    description: t6001-rev-list-graft.sh
+    end_time: 1288483640.42772
+    start_time: 1288483640.37739
+  -
+    description: t6002-rev-list-bisect.sh
+    end_time: 1288483640.80643
+    start_time: 1288483638.84138
+  -
+    description: t6003-rev-list-topo-order.sh
+    end_time: 1288483641.21884
+    start_time: 1288483640.9482
+  -
+    description: t6004-rev-list-path-optim.sh
+    end_time: 1288483641.76795
+    start_time: 1288483641.65561
+  -
+    description: t6005-rev-list-count.sh
+    end_time: 1288483641.84741
+    start_time: 1288483641.46818
+  -
+    description: t6006-rev-list-format.sh
+    end_time: 1288483642.26668
+    start_time: 1288483642.19279
+  -
+    description: t6007-rev-list-cherry-pick-file.sh
+    end_time: 1288483642.48465
+    start_time: 1288483642.07209
+  -
+    description: t6008-rev-list-submodule.sh
+    end_time: 1288483643.18198
+    start_time: 1288483627.91273
+  -
+    description: t6009-rev-list-parent.sh
+    end_time: 1288483643.26424
+    start_time: 1288483640.39609
+  -
+    description: t6010-merge-base.sh
+    end_time: 1288483643.53383
+    start_time: 1288483625.5468
+  -
+    description: t6011-rev-list-with-bad-commit.sh
+    end_time: 1288483644.0647
+    start_time: 1288483643.64273
+  -
+    description: t6012-rev-list-simplify.sh
+    end_time: 1288483644.20019
+    start_time: 1288483641.67114
+  -
+    description: t6013-rev-list-reverse-parents.sh
+    end_time: 1288483644.2793
+    start_time: 1288483644.15258
+  -
+    description: t6014-rev-list-all.sh
+    end_time: 1288483644.4756
+    start_time: 1288483640.83613
+  -
+    description: t6015-rev-list-show-all-parents.sh
+    end_time: 1288483644.66092
+    start_time: 1288483643.90792
+  -
+    description: t6016-rev-list-graph-simplify-history.sh
+    end_time: 1288483644.81615
+    start_time: 1288483644.52556
+  -
+    description: t6017-rev-list-stdin.sh
+    end_time: 1288483645.00407
+    start_time: 1288483644.47473
+  -
+    description: t6018-rev-list-glob.sh
+    end_time: 1288483645.04914
+    start_time: 1288483643.81288
+  -
+    description: t6019-rev-list-ancestry-path.sh
+    end_time: 1288483645.16657
+    start_time: 1288483625.80169
+  -
+    description: t6020-merge-df.sh
+    end_time: 1288483645.26471
+    start_time: 1288483645.10275
+  -
+    description: t6021-merge-criss-cross.sh
+    end_time: 1288483645.33248
+    start_time: 1288483644.13849
+  -
+    description: t6022-merge-rename.sh
+    end_time: 1288483645.69645
+    start_time: 1288483645.15348
+  -
+    description: t6023-merge-file.sh
+    end_time: 1288483645.73446
+    start_time: 1288483645.31274
+  -
+    description: t6024-recursive-merge.sh
+    end_time: 1288483645.75727
+    start_time: 1288483645.40835
+  -
+    description: t6025-merge-symlinks.sh
+    end_time: 1288483646.19902
+    start_time: 1288483645.7306
+  -
+    description: t6026-merge-attr.sh
+    end_time: 1288483646.30161
+    start_time: 1288483646.08903
+  -
+    description: t6027-merge-binary.sh
+    end_time: 1288483646.36877
+    start_time: 1288483645.21469
+  -
+    description: t6028-merge-up-to-date.sh
+    end_time: 1288483646.41577
+    start_time: 1288483646.2517
+  -
+    description: t6029-merge-subtree.sh
+    end_time: 1288483647.00456
+    start_time: 1288483645.41903
+  -
+    description: t6030-bisect-porcelain.sh
+    end_time: 1288483647.86148
+    start_time: 1288483646.99834
+  -
+    description: t6031-merge-recursive.sh
+    end_time: 1288483647.98673
+    start_time: 1288483646.48809
+  -
+    description: t6032-merge-large-rename.sh
+    end_time: 1288483648.19533
+    start_time: 1288483647.64214
+  -
+    description: t6033-merge-crlf.sh
+    end_time: 1288483648.30382
+    start_time: 1288483646.66256
+  -
+    description: t6034-merge-rename-nocruft.sh
+    end_time: 1288483648.41272
+    start_time: 1288483646.7301
+  -
+    description: t6035-merge-dir-to-symlink.sh
+    end_time: 1288483649.07064
+    start_time: 1288483648.54088
+  -
+    description: t6036-recursive-corner-cases.sh
+    end_time: 1288483649.67175
+    start_time: 1288483649.54514
+  -
+    description: t6037-merge-ours-theirs.sh
+    end_time: 1288483649.82113
+    start_time: 1288483645.892
+  -
+    description: t6038-merge-text-auto.sh
+    end_time: 1288483649.99042
+    start_time: 1288483648.94777
+  -
+    description: t6040-tracking-info.sh
+    end_time: 1288483651.4231
+    start_time: 1288483648.65211
+  -
+    description: t6050-replace.sh
+    end_time: 1288483651.4449
+    start_time: 1288483649.86098
+  -
+    description: t6101-rev-parse-parents.sh
+    end_time: 1288483651.83605
+    start_time: 1288483632.46257
+  -
+    description: t6120-describe.sh
+    end_time: 1288483652.1406
+    start_time: 1288483652.10838
+  -
+    description: t6200-fmt-merge-msg.sh
+    end_time: 1288483652.17647
+    start_time: 1288483645.03871
+  -
+    description: t6300-for-each-ref.sh
+    end_time: 1288483652.81022
+    start_time: 1288483651.58224
+  -
+    description: t6500-gc.sh
+    end_time: 1288483652.91684
+    start_time: 1288483648.3347
+  -
+    description: t7001-mv.sh
+    end_time: 1288483653.04059
+    start_time: 1288483652.37032
+  -
+    description: t7003-filter-branch.sh
+    end_time: 1288483653.23036
+    start_time: 1288483652.33779
+  -
+    description: t7004-tag.sh
+    end_time: 1288483653.70617
+    start_time: 1288483653.46619
+  -
+    description: t7005-editor.sh
+    end_time: 1288483653.75804
+    start_time: 1288483650.60098
+  -
+    description: t7006-pager.sh
+    end_time: 1288483653.85817
+    start_time: 1288483653.41087
+  -
+    description: t7007-show.sh
+    end_time: 1288483654.29578
+    start_time: 1288483654.17319
+  -
+    description: t7008-grep-binary.sh
+    end_time: 1288483654.31947
+    start_time: 1288483653.26541
+  -
+    description: t7010-setup.sh
+    end_time: 1288483654.36855
+    start_time: 1288483654.05901
+  -
+    description: t7011-skip-worktree-reading.sh
+    end_time: 1288483654.53548
+    start_time: 1288483653.09891
+  -
+    description: t7012-skip-worktree-writing.sh
+    end_time: 1288483657.05006
+    start_time: 1288483654.60259
+  -
+    description: t7060-wtstatus.sh
+    end_time: 1288483657.81809
+    start_time: 1288483654.6386
+  -
+    description: t7101-reset.sh
+    end_time: 1288483658.89708
+    start_time: 1288483657.36739
+  -
+    description: t7102-reset.sh
+    end_time: 1288483659.24083
+    start_time: 1288483654.12671
+  -
+    description: t7103-reset-bare.sh
+    end_time: 1288483659.50841
+    start_time: 1288483654.69225
+  -
+    description: t7104-reset.sh
+    end_time: 1288483660.28903
+    start_time: 1288483654.93521
+  -
+    description: t7105-reset-patch.sh
+    end_time: 1288483661.41116
+    start_time: 1288483650.21635
+  -
+    description: t7110-reset-merge.sh
+    end_time: 1288483662.43976
+    start_time: 1288483661.09023
+  -
+    description: t7111-reset-table.sh
+    end_time: 1288483663.1477
+    start_time: 1288483659.91832
+  -
+    description: t7201-co.sh
+    end_time: 1288483663.98418
+    start_time: 1288483661.64492
+  -
+    description: t7300-clean.sh
+    end_time: 1288483664.36691
+    start_time: 1288483651.66636
+  -
+    description: t7400-submodule-basic.sh
+    end_time: 1288483664.96724
+    start_time: 1288483663.41512
+  -
+    description: t7401-submodule-summary.sh
+    end_time: 1288483666.52133
+    start_time: 1288483659.61163
+  -
+    description: t7402-submodule-rebase.sh
+    end_time: 1288483666.82383
+    start_time: 1288483664.17424
+  -
+    description: t7403-submodule-sync.sh
+    end_time: 1288483667.11064
+    start_time: 1288483666.72106
+  -
+    description: t7405-submodule-merge.sh
+    end_time: 1288483667.48503
+    start_time: 1288483664.53933
+  -
+    description: t7406-submodule-update.sh
+    end_time: 1288483668.44442
+    start_time: 1288483667.03307
+  -
+    description: t7407-submodule-foreach.sh
+    end_time: 1288483668.71949
+    start_time: 1288483667.30313
+  -
+    description: t7408-submodule-reference.sh
+    end_time: 1288483669.10289
+    start_time: 1288483668.71786
+  -
+    description: t7500-commit.sh
+    end_time: 1288483669.36772
+    start_time: 1288483667.86336
+  -
+    description: t7501-commit.sh
+    end_time: 1288483670.29864
+    start_time: 1288483665.20221
+  -
+    description: t7502-commit.sh
+    end_time: 1288483670.55123
+    start_time: 1288483669.442
+  -
+    description: t7503-pre-commit-hook.sh
+    end_time: 1288483670.95705
+    start_time: 1288483664.46909
+  -
+    description: t7504-commit-msg-hook.sh
+    end_time: 1288483671.38631
+    start_time: 1288483658.05047
+  -
+    description: t7505-prepare-commit-msg-hook.sh
+    end_time: 1288483672.026
+    start_time: 1288483671.78987
+  -
+    description: t7506-status-submodule.sh
+    end_time: 1288483673.66265
+    start_time: 1288483672.50297
+  -
+    description: t7507-commit-verbose.sh
+    end_time: 1288483673.95986
+    start_time: 1288483671.49058
+  -
+    description: t7508-status.sh
+    end_time: 1288483674.06975
+    start_time: 1288483670.75414
+  -
+    description: t7509-commit.sh
+    end_time: 1288483674.82585
+    start_time: 1288483673.8247
+  -
+    description: t7600-merge.sh
+    end_time: 1288483675.57204
+    start_time: 1288483674.47854
+  -
+    description: t7601-merge-pull-config.sh
+    end_time: 1288483675.80761
+    start_time: 1288483674.56336
+  -
+    description: t7602-merge-octopus-many.sh
+    end_time: 1288483676.48755
+    start_time: 1288483675.84863
+  -
+    description: t7603-merge-reduce-heads.sh
+    end_time: 1288483677.16133
+    start_time: 1288483675.16756
+  -
+    description: t7604-merge-custom-message.sh
+    end_time: 1288483678.25753
+    start_time: 1288483669.51227
+  -
+    description: t7605-merge-resolve.sh
+    end_time: 1288483678.59992
+    start_time: 1288483674.34046
+  -
+    description: t7606-merge-custom.sh
+    end_time: 1288483679.3062
+    start_time: 1288483678.2456
+  -
+    description: t7607-merge-overwrite.sh
+    end_time: 1288483679.92012
+    start_time: 1288483677.21722
+  -
+    description: t7608-merge-messages.sh
+    end_time: 1288483680.38027
+    start_time: 1288483679.49119
+  -
+    description: t7609-merge-abort.sh
+    end_time: 1288483681.19953
+    start_time: 1288483680.09493
+  -
+    description: t7609-merge-co-error-msgs.sh
+    end_time: 1288483681.66186
+    start_time: 1288483680.57728
+  -
+    description: t7610-mergetool.sh
+    end_time: 1288483682.30671
+    start_time: 1288483678.84233
+  -
+    description: t7700-repack.sh
+    end_time: 1288483682.34529
+    start_time: 1288483682.25504
+  -
+    description: t7701-repack-unpack-unreachable.sh
+    end_time: 1288483682.37433
+    start_time: 1288483681.70857
+  -
+    description: t7800-difftool.sh
+    end_time: 1288483682.87567
+    start_time: 1288483682.62266
+  -
+    description: t7810-grep.sh
+    end_time: 1288483683.01903
+    start_time: 1288483682.67156
+  -
+    description: t7811-grep-open.sh
+    end_time: 1288483683.52257
+    start_time: 1288483682.57701
+  -
+    description: t8001-annotate.sh
+    end_time: 1288483683.65107
+    start_time: 1288483676.21931
+  -
+    description: t8002-blame.sh
+    end_time: 1288483685.01379
+    start_time: 1288483684.96223
+  -
+    description: t8003-blame.sh
+    end_time: 1288483689.09549
+    start_time: 1288483668.97372
+  -
+    description: t8004-blame.sh
+    end_time: 1288483689.22876
+    start_time: 1288483678.51767
+  -
+    description: t8005-blame-i18n.sh
+    end_time: 1288483689.31081
+    start_time: 1288483645.58091
+  -
+    description: t8006-blame-textconv.sh
+    end_time: 1288483690.8785
+    start_time: 1288483665.34955
+  -
+    description: t8007-cat-file-textconv.sh
+    end_time: 1288483693.72081
+    start_time: 1288483685.91862
+  -
+    description: t9001-send-email.sh
+    end_time: 1288483697.95231
+    start_time: 1288483690.02848
+  -
+    description: t9010-svn-fe.sh
+    end_time: 1288483698.5069
+    start_time: 1288483650.56413
+  -
+    description: t9100-git-svn-basic.sh
+    end_time: 1288483698.59017
+    start_time: 1288483689.87585
+  -
+    description: t9101-git-svn-props.sh
+    end_time: 1288483719.78367
+    start_time: 1288483715.22045
+  -
+    description: t9102-git-svn-deep-rmdir.sh
+    end_time: 1288483720.69192
+    start_time: 1288483708.44737
+  -
+    description: t9103-git-svn-tracked-directory-removed.sh
+    end_time: 1288483722.22084
+    start_time: 1288483691.44977
+  -
+    description: t9104-git-svn-follow-parent.sh
+    end_time: 1288483723.47357
+    start_time: 1288483684.79573
+  -
+    description: t9105-git-svn-commit-diff.sh
+    end_time: 1288483726.78126
+    start_time: 1288483699.09533
+  -
+    description: t9106-git-svn-commit-diff-clobber.sh
+    end_time: 1288483726.90621
+    start_time: 1288483721.30032
+  -
+    description: t9107-git-svn-migrate.sh
+    end_time: 1288483733.47422
+    start_time: 1288483728.61318
+  -
+    description: t9108-git-svn-glob.sh
+    end_time: 1288483737.72151
+    start_time: 1288483737.41339
+  -
+    description: t9109-git-svn-multi-glob.sh
+    end_time: 1288483738.32916
+    start_time: 1288483724.40615
+  -
+    description: t9110-git-svn-use-svm-props.sh
+    end_time: 1288483742.50583
+    start_time: 1288483709.00751
+  -
+    description: t9111-git-svn-use-svnsync-props.sh
+    end_time: 1288483753.46545
+    start_time: 1288483734.33162
+  -
+    description: t9112-git-svn-md5less-file.sh
+    end_time: 1288483759.65885
+    start_time: 1288483754.2513
+  -
+    description: t9113-git-svn-dcommit-new-file.sh
+    end_time: 1288483769.95295
+    start_time: 1288483683.05154
+  -
+    description: t9114-git-svn-dcommit-merge.sh
+    end_time: 1288483775.89323
+    start_time: 1288483738.99327
+  -
+    description: t9115-git-svn-dcommit-funky-renames.sh
+    end_time: 1288483776.50033
+    start_time: 1288483743.3539
+  -
+    description: t9116-git-svn-log.sh
+    end_time: 1288483778.57429
+    start_time: 1288483775.93086
+  -
+    description: t9117-git-svn-init-clone.sh
+    end_time: 1288483779.57059
+    start_time: 1288483760.64939
+  -
+    description: t9118-git-svn-funky-branch-names.sh
+    end_time: 1288483780.63924
+    start_time: 1288483727.49649
+  -
+    description: t9119-git-svn-info.sh
+    end_time: 1288483787.10126
+    start_time: 1288483760.09977
+  -
+    description: t9120-git-svn-clone-with-percent-escapes.sh
+    end_time: 1288483788.41818
+    start_time: 1288483779.35186
+  -
+    description: t9121-git-svn-fetch-renamed-dir.sh
+    end_time: 1288483790.8807
+    start_time: 1288483684.39912
+  -
+    description: t9122-git-svn-author.sh
+    end_time: 1288483791.09456
+    start_time: 1288483777.38814
+  -
+    description: t9123-git-svn-rebuild-with-rewriteroot.sh
+    end_time: 1288483795.17915
+    start_time: 1288483781.61235
+  -
+    description: t9124-git-svn-dcommit-auto-props.sh
+    end_time: 1288483799.3086
+    start_time: 1288483791.81582
+  -
+    description: t9125-git-svn-multi-glob-branch-names.sh
+    end_time: 1288483801.19625
+    start_time: 1288483782.49834
+  -
+    description: t9126-git-svn-follow-deleted-readded-directory.sh
+    end_time: 1288483801.55862
+    start_time: 1288483745.71614
+  -
+    description: t9127-git-svn-partial-rebuild.sh
+    end_time: 1288483806.52766
+    start_time: 1288483539.64168
+  -
+    description: t9128-git-svn-cmd-branch.sh
+    end_time: 1288483815.74527
+    start_time: 1288483802.36439
+  -
+    description: t9129-git-svn-i18n-commitencoding.sh
+    end_time: 1288483815.88835
+    start_time: 1288483796.34038
+  -
+    description: t9130-git-svn-authors-file.sh
+    end_time: 1288483816.82449
+    start_time: 1288483802.49936
+  -
+    description: t9131-git-svn-empty-symlink.sh
+    end_time: 1288483817.32326
+    start_time: 1288483791.88049
+  -
+    description: t9132-git-svn-broken-symlink.sh
+    end_time: 1288483817.85943
+    start_time: 1288483791.53943
+  -
+    description: t9133-git-svn-nested-git-repo.sh
+    end_time: 1288483823.3861
+    start_time: 1288483789.29509
+  -
+    description: t9134-git-svn-ignore-paths.sh
+    end_time: 1288483823.43436
+    start_time: 1288483818.94161
+  -
+    description: t9135-git-svn-moved-branch-empty-file.sh
+    end_time: 1288483827.89944
+    start_time: 1288483813.59385
+  -
+    description: t9136-git-svn-recreated-branch-empty-file.sh
+    end_time: 1288483828.5673
+    start_time: 1288483816.73342
+  -
+    description: t9137-git-svn-dcommit-clobber-series.sh
+    end_time: 1288483831.20214
+    start_time: 1288483823.38017
+  -
+    description: t9138-git-svn-authors-prog.sh
+    end_time: 1288483831.40454
+    start_time: 1288483824.01625
+  -
+    description: t9139-git-svn-non-utf8-commitencoding.sh
+    end_time: 1288483835.0642
+    start_time: 1288483800.18843
+  -
+    description: t9140-git-svn-reset.sh
+    end_time: 1288483837.60258
+    start_time: 1288483828.92844
+  -
+    description: t9141-git-svn-multiple-branches.sh
+    end_time: 1288483838.25016
+    start_time: 1288483829.28081
+  -
+    description: t9142-git-svn-shallow-clone.sh
+    end_time: 1288483842.19866
+    start_time: 1288483817.98534
+  -
+    description: t9143-git-svn-gc.sh
+    end_time: 1288483845.93079
+    start_time: 1288483845.82566
+  -
+    description: t9144-git-svn-old-rev_map.sh
+    end_time: 1288483847.24206
+    start_time: 1288483847.16001
+  -
+    description: t9145-git-svn-master-branch.sh
+    end_time: 1288483847.89167
+    start_time: 1288483836.43788
+  -
+    description: t9146-git-svn-empty-dirs.sh
+    end_time: 1288483848.19404
+    start_time: 1288483848.14907
+  -
+    description: t9150-svk-mergetickets.sh
+    end_time: 1288483854.99268
+    start_time: 1288483781.49122
+  -
+    description: t9151-svn-mergeinfo.sh
+    end_time: 1288483862.518
+    start_time: 1288483848.51396
+  -
+    description: t9152-svn-empty-dirs-after-gc.sh
+    end_time: 1288483864.96049
+    start_time: 1288483843.74401
+  -
+    description: t9153-git-svn-rewrite-uuid.sh
+    end_time: 1288483865.21511
+    start_time: 1288483865.19277
+  -
+    description: t9154-git-svn-fancy-glob.sh
+    end_time: 1288483865.4201
+    start_time: 1288483865.39128
+  -
+    description: t9155-git-svn-fetch-deleted-tag.sh
+    end_time: 1288483866.80607
+    start_time: 1288483847.28022
+  -
+    description: t9156-git-svn-fetch-deleted-tag-2.sh
+    end_time: 1288483867.07223
+    start_time: 1288483846.40888
+  -
+    description: t9157-git-svn-fetch-merge.sh
+    end_time: 1288483867.60498
+    start_time: 1288483849.59796
+  -
+    description: t9200-git-cvsexportcommit.sh
+    end_time: 1288483867.96666
+    start_time: 1288483867.92825
+  -
+    description: t9300-fast-import.sh
+    end_time: 1288483868.20049
+    start_time: 1288483863.19185
+  -
+    description: t9301-fast-import-notes.sh
+    end_time: 1288483868.24634
+    start_time: 1288483868.19662
+  -
+    description: t9350-fast-export.sh
+    end_time: 1288483868.48187
+    start_time: 1288483868.45573
+  -
+    description: t9400-git-cvsserver-server.sh
+    end_time: 1288483868.50863
+    start_time: 1288483868.47255
+  -
+    description: t9401-git-cvsserver-crlf.sh
+    end_time: 1288483870.27391
+    start_time: 1288483829.64011
+  -
+    description: t9500-gitweb-standalone-no-errors.sh
+    end_time: 1288483870.34338
+    start_time: 1288483869.36451
+  -
+    description: t9501-gitweb-standalone-http-status.sh
+    end_time: 1288483870.91656
+    start_time: 1288483867.64135
+  -
+    description: t9502-gitweb-standalone-parse-output.sh
+    end_time: 1288483871.03534
+    start_time: 1288483867.2565
+  -
+    description: t9600-cvsimport.sh
+    end_time: 1288483876.84178
+    start_time: 1288483855.29385
+  -
+    description: t9601-cvsimport-vendor-branch.sh
+    end_time: 1288483883.37344
+    start_time: 1288483823.37942
+  -
+    description: t9602-cvsimport-branches-tags.sh
+    end_time: 1288483885.76597
+    start_time: 1288483866.88613
+  -
+    description: t9603-cvsimport-patchsets.sh
+    end_time: 1288483889.39078
+    start_time: 1288483889.26299
+  -
+    description: t9700-perl-git.sh
+    end_time: 1288483904.38623
+    start_time: 1288483690.16685
+file_order:
+  - t0000-basic.sh
+  - t0001-init.sh
+  - t0002-gitfile.sh
+  - t0003-attributes.sh
+  - t0004-unwritable.sh
+  - t0005-signals.sh
+  - t0006-date.sh
+  - t0010-racy-git.sh
+  - t0020-crlf.sh
+  - t0021-conversion.sh
+  - t0022-crlf-rename.sh
+  - t0023-crlf-am.sh
+  - t0024-crlf-archive.sh
+  - t0025-crlf-auto.sh
+  - t0026-eol-config.sh
+  - t0030-stripspace.sh
+  - t0040-parse-options.sh
+  - t0050-filesystem.sh
+  - t0055-beyond-symlinks.sh
+  - t0060-path-utils.sh
+  - t0061-run-command.sh
+  - t0070-fundamental.sh
+  - t0080-vcs-svn.sh
+  - t0100-previous.sh
+  - t0101-at-syntax.sh
+  - t0200-gettext-basic.sh
+  - t0201-gettext-fallbacks.sh
+  - t0202-gettext-perl.sh
+  - t0203-gettext-setlocale-sanity.sh
+  - t0204-gettext-reencode-sanity.sh
+  - t0205-gettext-poison.sh
+  - t1000-read-tree-m-3way.sh
+  - t1001-read-tree-m-2way.sh
+  - t1002-read-tree-m-u-2way.sh
+  - t1003-read-tree-prefix.sh
+  - t1004-read-tree-m-u-wf.sh
+  - t1005-read-tree-reset.sh
+  - t1006-cat-file.sh
+  - t1007-hash-object.sh
+  - t1008-read-tree-overlay.sh
+  - t1009-read-tree-new-index.sh
+  - t1010-mktree.sh
+  - t1011-read-tree-sparse-checkout.sh
+  - t1012-read-tree-df.sh
+  - t1020-subdirectory.sh
+  - t1100-commit-tree-options.sh
+  - t1200-tutorial.sh
+  - t1300-repo-config.sh
+  - t1301-shared-repo.sh
+  - t1302-repo-version.sh
+  - t1303-wacky-config.sh
+  - t1304-default-acl.sh
+  - t1400-update-ref.sh
+  - t1401-symbolic-ref.sh
+  - t1402-check-ref-format.sh
+  - t1410-reflog.sh
+  - t1411-reflog-show.sh
+  - t1420-lost-found.sh
+  - t1450-fsck.sh
+  - t1500-rev-parse.sh
+  - t1501-worktree.sh
+  - t1502-rev-parse-parseopt.sh
+  - t1503-rev-parse-verify.sh
+  - t1504-ceiling-dirs.sh
+  - t1505-rev-parse-last.sh
+  - t1506-rev-parse-diagnosis.sh
+  - t1507-rev-parse-upstream.sh
+  - t1508-at-combinations.sh
+  - t1509-root-worktree.sh
+  - t1510-repo-setup.sh
+  - t2000-checkout-cache-clash.sh
+  - t2001-checkout-cache-clash.sh
+  - t2002-checkout-cache-u.sh
+  - t2003-checkout-cache-mkdir.sh
+  - t2004-checkout-cache-temp.sh
+  - t2005-checkout-index-symlinks.sh
+  - t2006-checkout-index-basic.sh
+  - t2007-checkout-symlink.sh
+  - t2008-checkout-subdir.sh
+  - t2009-checkout-statinfo.sh
+  - t2010-checkout-ambiguous.sh
+  - t2011-checkout-invalid-head.sh
+  - t2012-checkout-last.sh
+  - t2013-checkout-submodule.sh
+  - t2014-switch.sh
+  - t2015-checkout-unborn.sh
+  - t2016-checkout-patch.sh
+  - t2017-checkout-orphan.sh
+  - t2018-checkout-branch.sh
+  - t2030-unresolve-info.sh
+  - t2050-git-dir-relative.sh
+  - t2100-update-cache-badpath.sh
+  - t2101-update-index-reupdate.sh
+  - t2102-update-index-symlinks.sh
+  - t2103-update-index-ignore-missing.sh
+  - t2104-update-index-skip-worktree.sh
+  - t2105-update-index-gitfile.sh
+  - t2106-update-index-assume-unchanged.sh
+  - t2107-update-index-basic.sh
+  - t2200-add-update.sh
+  - t2201-add-update-typechange.sh
+  - t2202-add-addremove.sh
+  - t2203-add-intent.sh
+  - t2204-add-ignored.sh
+  - t2300-cd-to-toplevel.sh
+  - t3000-ls-files-others.sh
+  - t3001-ls-files-others-exclude.sh
+  - t3002-ls-files-dashpath.sh
+  - t3003-ls-files-exclude.sh
+  - t3004-ls-files-basic.sh
+  - t3010-ls-files-killed-modified.sh
+  - t3020-ls-files-error-unmatch.sh
+  - t3030-merge-recursive.sh
+  - t3031-merge-criscross.sh
+  - t3032-merge-recursive-options.sh
+  - t3040-subprojects-basic.sh
+  - t3050-subprojects-fetch.sh
+  - t3060-ls-files-with-tree.sh
+  - t3100-ls-tree-restrict.sh
+  - t3101-ls-tree-dirname.sh
+  - t3200-branch.sh
+  - t3201-branch-contains.sh
+  - t3202-show-branch-octopus.sh
+  - t3203-branch-output.sh
+  - t3210-pack-refs.sh
+  - t3300-funny-names.sh
+  - t3301-notes.sh
+  - t3302-notes-index-expensive.sh
+  - t3303-notes-subtrees.sh
+  - t3304-notes-mixed.sh
+  - t3305-notes-fanout.sh
+  - t3306-notes-prune.sh
+  - t3307-notes-man.sh
+  - t3308-notes-merge.sh
+  - t3309-notes-merge-auto-resolve.sh
+  - t3310-notes-merge-manual-resolve.sh
+  - t3311-notes-merge-fanout.sh
+  - t3400-rebase.sh
+  - t3401-rebase-partial.sh
+  - t3402-rebase-merge.sh
+  - t3403-rebase-skip.sh
+  - t3404-rebase-interactive.sh
+  - t3405-rebase-malformed.sh
+  - t3406-rebase-message.sh
+  - t3407-rebase-abort.sh
+  - t3408-rebase-multi-line.sh
+  - t3409-rebase-preserve-merges.sh
+  - t3410-rebase-preserve-dropped-merges.sh
+  - t3411-rebase-preserve-around-merges.sh
+  - t3412-rebase-root.sh
+  - t3413-rebase-hook.sh
+  - t3414-rebase-preserve-onto.sh
+  - t3415-rebase-autosquash.sh
+  - t3416-rebase-onto-threedots.sh
+  - t3417-rebase-whitespace-fix.sh
+  - t3418-rebase-continue.sh
+  - t3419-rebase-patch-id.sh
+  - t3500-cherry.sh
+  - t3501-revert-cherry-pick.sh
+  - t3502-cherry-pick-merge.sh
+  - t3503-cherry-pick-root.sh
+  - t3504-cherry-pick-rerere.sh
+  - t3505-cherry-pick-empty.sh
+  - t3506-cherry-pick-ff.sh
+  - t3507-cherry-pick-conflict.sh
+  - t3508-cherry-pick-many-commits.sh
+  - t3509-cherry-pick-merge-df.sh
+  - t3600-rm.sh
+  - t3700-add.sh
+  - t3701-add-interactive.sh
+  - t3702-add-edit.sh
+  - t3800-mktag.sh
+  - t3900-i18n-commit.sh
+  - t3901-i18n-patch.sh
+  - t3902-quoted.sh
+  - t3903-stash.sh
+  - t3904-stash-patch.sh
+  - t4000-diff-format.sh
+  - t4001-diff-rename.sh
+  - t4002-diff-basic.sh
+  - t4003-diff-rename-1.sh
+  - t4004-diff-rename-symlink.sh
+  - t4005-diff-rename-2.sh
+  - t4006-diff-mode.sh
+  - t4007-rename-3.sh
+  - t4008-diff-break-rewrite.sh
+  - t4009-diff-rename-4.sh
+  - t4010-diff-pathspec.sh
+  - t4011-diff-symlink.sh
+  - t4012-diff-binary.sh
+  - t4013-diff-various.sh
+  - t4014-format-patch.sh
+  - t4015-diff-whitespace.sh
+  - t4016-diff-quote.sh
+  - t4017-diff-retval.sh
+  - t4018-diff-funcname.sh
+  - t4019-diff-wserror.sh
+  - t4020-diff-external.sh
+  - t4021-format-patch-numbered.sh
+  - t4022-diff-rewrite.sh
+  - t4023-diff-rename-typechange.sh
+  - t4024-diff-optimize-common.sh
+  - t4025-hunk-header.sh
+  - t4026-color.sh
+  - t4027-diff-submodule.sh
+  - t4028-format-patch-mime-headers.sh
+  - t4029-diff-trailing-space.sh
+  - t4030-diff-textconv.sh
+  - t4031-diff-rewrite-binary.sh
+  - t4032-diff-inter-hunk-context.sh
+  - t4033-diff-patience.sh
+  - t4034-diff-words.sh
+  - t4035-diff-quiet.sh
+  - t4036-format-patch-signer-mime.sh
+  - t4037-diff-r-t-dirs.sh
+  - t4038-diff-combined.sh
+  - t4039-diff-assume-unchanged.sh
+  - t4040-whitespace-status.sh
+  - t4041-diff-submodule-option.sh
+  - t4042-diff-textconv-caching.sh
+  - t4043-diff-rename-binary.sh
+  - t4044-diff-index-unique-abbrev.sh
+  - t4045-diff-relative.sh
+  - t4046-diff-bulk-move.sh
+  - t4100-apply-stat.sh
+  - t4101-apply-nonl.sh
+  - t4102-apply-rename.sh
+  - t4103-apply-binary.sh
+  - t4104-apply-boundary.sh
+  - t4105-apply-fuzz.sh
+  - t4106-apply-stdin.sh
+  - t4107-apply-ignore-whitespace.sh
+  - t4109-apply-multifrag.sh
+  - t4110-apply-scan.sh
+  - t4111-apply-subdir.sh
+  - t4112-apply-renames.sh
+  - t4113-apply-ending.sh
+  - t4114-apply-typechange.sh
+  - t4115-apply-symlink.sh
+  - t4116-apply-reverse.sh
+  - t4117-apply-reject.sh
+  - t4118-apply-empty-context.sh
+  - t4119-apply-config.sh
+  - t4120-apply-popt.sh
+  - t4121-apply-diffs.sh
+  - t4122-apply-symlink-inside.sh
+  - t4123-apply-shrink.sh
+  - t4124-apply-ws-rule.sh
+  - t4125-apply-ws-fuzz.sh
+  - t4126-apply-empty.sh
+  - t4127-apply-same-fn.sh
+  - t4128-apply-root.sh
+  - t4129-apply-samemode.sh
+  - t4130-apply-criss-cross-rename.sh
+  - t4131-apply-fake-ancestor.sh
+  - t4132-apply-removal.sh
+  - t4133-apply-filenames.sh
+  - t4134-apply-submodule.sh
+  - t4135-apply-weird-filenames.sh
+  - t4150-am.sh
+  - t4151-am-abort.sh
+  - t4200-rerere.sh
+  - t4201-shortlog.sh
+  - t4202-log.sh
+  - t4203-mailmap.sh
+  - t4204-patch-id.sh
+  - t4205-log-pretty-formats.sh
+  - t4206-log-follow-harder-copies.sh
+  - t4207-log-decoration-colors.sh
+  - t4252-am-options.sh
+  - t4253-am-keep-cr-dos.sh
+  - t4300-merge-tree.sh
+  - t5000-tar-tree.sh
+  - t5001-archive-attr.sh
+  - t5100-mailinfo.sh
+  - t5150-request-pull.sh
+  - t5300-pack-object.sh
+  - t5301-sliding-window.sh
+  - t5302-pack-index.sh
+  - t5303-pack-corruption-resilience.sh
+  - t5304-prune.sh
+  - t5305-include-tag.sh
+  - t5306-pack-nobase.sh
+  - t5307-pack-missing-commit.sh
+  - t5400-send-pack.sh
+  - t5401-update-hooks.sh
+  - t5402-post-merge-hook.sh
+  - t5403-post-checkout-hook.sh
+  - t5404-tracking-branches.sh
+  - t5405-send-pack-rewind.sh
+  - t5406-remote-rejects.sh
+  - t5407-post-rewrite-hook.sh
+  - t5500-fetch-pack.sh
+  - t5502-quickfetch.sh
+  - t5503-tagfollow.sh
+  - t5505-remote.sh
+  - t5506-remote-groups.sh
+  - t5510-fetch.sh
+  - t5511-refspec.sh
+  - t5512-ls-remote.sh
+  - t5513-fetch-track.sh
+  - t5514-fetch-multiple.sh
+  - t5515-fetch-merge-logic.sh
+  - t5516-fetch-push.sh
+  - t5517-push-mirror.sh
+  - t5518-fetch-exit-status.sh
+  - t5519-push-alternates.sh
+  - t5520-pull.sh
+  - t5521-pull-options.sh
+  - t5522-pull-symlink.sh
+  - t5523-push-upstream.sh
+  - t5524-pull-msg.sh
+  - t5525-fetch-tagopt.sh
+  - t5526-fetch-submodules.sh
+  - t5530-upload-pack-error.sh
+  - t5531-deep-submodule-push.sh
+  - t5540-http-push.sh
+  - t5541-http-push.sh
+  - t5550-http-fetch.sh
+  - t5551-http-fetch.sh
+  - t5560-http-backend-noserver.sh
+  - t5561-http-backend.sh
+  - t5600-clone-fail-cleanup.sh
+  - t5601-clone.sh
+  - t5602-clone-remote-exec.sh
+  - t5700-clone-reference.sh
+  - t5701-clone-local.sh
+  - t5702-clone-options.sh
+  - t5704-bundle.sh
+  - t5705-clone-2gb.sh
+  - t5706-clone-branch.sh
+  - t5710-info-alternate.sh
+  - t5800-remote-helpers.sh
+  - t6000-rev-list-misc.sh
+  - t6001-rev-list-graft.sh
+  - t6002-rev-list-bisect.sh
+  - t6003-rev-list-topo-order.sh
+  - t6004-rev-list-path-optim.sh
+  - t6005-rev-list-count.sh
+  - t6006-rev-list-format.sh
+  - t6007-rev-list-cherry-pick-file.sh
+  - t6008-rev-list-submodule.sh
+  - t6009-rev-list-parent.sh
+  - t6010-merge-base.sh
+  - t6011-rev-list-with-bad-commit.sh
+  - t6012-rev-list-simplify.sh
+  - t6013-rev-list-reverse-parents.sh
+  - t6014-rev-list-all.sh
+  - t6015-rev-list-show-all-parents.sh
+  - t6016-rev-list-graph-simplify-history.sh
+  - t6017-rev-list-stdin.sh
+  - t6018-rev-list-glob.sh
+  - t6019-rev-list-ancestry-path.sh
+  - t6020-merge-df.sh
+  - t6021-merge-criss-cross.sh
+  - t6022-merge-rename.sh
+  - t6023-merge-file.sh
+  - t6024-recursive-merge.sh
+  - t6025-merge-symlinks.sh
+  - t6026-merge-attr.sh
+  - t6027-merge-binary.sh
+  - t6028-merge-up-to-date.sh
+  - t6029-merge-subtree.sh
+  - t6030-bisect-porcelain.sh
+  - t6031-merge-recursive.sh
+  - t6032-merge-large-rename.sh
+  - t6033-merge-crlf.sh
+  - t6034-merge-rename-nocruft.sh
+  - t6035-merge-dir-to-symlink.sh
+  - t6036-recursive-corner-cases.sh
+  - t6037-merge-ours-theirs.sh
+  - t6038-merge-text-auto.sh
+  - t6040-tracking-info.sh
+  - t6050-replace.sh
+  - t6101-rev-parse-parents.sh
+  - t6120-describe.sh
+  - t6200-fmt-merge-msg.sh
+  - t6300-for-each-ref.sh
+  - t6500-gc.sh
+  - t7001-mv.sh
+  - t7003-filter-branch.sh
+  - t7004-tag.sh
+  - t7005-editor.sh
+  - t7006-pager.sh
+  - t7007-show.sh
+  - t7008-grep-binary.sh
+  - t7010-setup.sh
+  - t7011-skip-worktree-reading.sh
+  - t7012-skip-worktree-writing.sh
+  - t7060-wtstatus.sh
+  - t7101-reset.sh
+  - t7102-reset.sh
+  - t7103-reset-bare.sh
+  - t7104-reset.sh
+  - t7105-reset-patch.sh
+  - t7110-reset-merge.sh
+  - t7111-reset-table.sh
+  - t7201-co.sh
+  - t7300-clean.sh
+  - t7400-submodule-basic.sh
+  - t7401-submodule-summary.sh
+  - t7402-submodule-rebase.sh
+  - t7403-submodule-sync.sh
+  - t7405-submodule-merge.sh
+  - t7406-submodule-update.sh
+  - t7407-submodule-foreach.sh
+  - t7408-submodule-reference.sh
+  - t7500-commit.sh
+  - t7501-commit.sh
+  - t7502-commit.sh
+  - t7503-pre-commit-hook.sh
+  - t7504-commit-msg-hook.sh
+  - t7505-prepare-commit-msg-hook.sh
+  - t7506-status-submodule.sh
+  - t7507-commit-verbose.sh
+  - t7508-status.sh
+  - t7509-commit.sh
+  - t7600-merge.sh
+  - t7601-merge-pull-config.sh
+  - t7602-merge-octopus-many.sh
+  - t7603-merge-reduce-heads.sh
+  - t7604-merge-custom-message.sh
+  - t7605-merge-resolve.sh
+  - t7606-merge-custom.sh
+  - t7607-merge-overwrite.sh
+  - t7608-merge-messages.sh
+  - t7609-merge-abort.sh
+  - t7609-merge-co-error-msgs.sh
+  - t7610-mergetool.sh
+  - t7700-repack.sh
+  - t7701-repack-unpack-unreachable.sh
+  - t7800-difftool.sh
+  - t7810-grep.sh
+  - t7811-grep-open.sh
+  - t8001-annotate.sh
+  - t8002-blame.sh
+  - t8003-blame.sh
+  - t8004-blame.sh
+  - t8005-blame-i18n.sh
+  - t8006-blame-textconv.sh
+  - t8007-cat-file-textconv.sh
+  - t9001-send-email.sh
+  - t9010-svn-fe.sh
+  - t9100-git-svn-basic.sh
+  - t9101-git-svn-props.sh
+  - t9102-git-svn-deep-rmdir.sh
+  - t9103-git-svn-tracked-directory-removed.sh
+  - t9104-git-svn-follow-parent.sh
+  - t9105-git-svn-commit-diff.sh
+  - t9106-git-svn-commit-diff-clobber.sh
+  - t9107-git-svn-migrate.sh
+  - t9108-git-svn-glob.sh
+  - t9109-git-svn-multi-glob.sh
+  - t9110-git-svn-use-svm-props.sh
+  - t9111-git-svn-use-svnsync-props.sh
+  - t9112-git-svn-md5less-file.sh
+  - t9113-git-svn-dcommit-new-file.sh
+  - t9114-git-svn-dcommit-merge.sh
+  - t9115-git-svn-dcommit-funky-renames.sh
+  - t9116-git-svn-log.sh
+  - t9117-git-svn-init-clone.sh
+  - t9118-git-svn-funky-branch-names.sh
+  - t9119-git-svn-info.sh
+  - t9120-git-svn-clone-with-percent-escapes.sh
+  - t9121-git-svn-fetch-renamed-dir.sh
+  - t9122-git-svn-author.sh
+  - t9123-git-svn-rebuild-with-rewriteroot.sh
+  - t9124-git-svn-dcommit-auto-props.sh
+  - t9125-git-svn-multi-glob-branch-names.sh
+  - t9126-git-svn-follow-deleted-readded-directory.sh
+  - t9127-git-svn-partial-rebuild.sh
+  - t9128-git-svn-cmd-branch.sh
+  - t9129-git-svn-i18n-commitencoding.sh
+  - t9130-git-svn-authors-file.sh
+  - t9131-git-svn-empty-symlink.sh
+  - t9132-git-svn-broken-symlink.sh
+  - t9133-git-svn-nested-git-repo.sh
+  - t9134-git-svn-ignore-paths.sh
+  - t9135-git-svn-moved-branch-empty-file.sh
+  - t9136-git-svn-recreated-branch-empty-file.sh
+  - t9137-git-svn-dcommit-clobber-series.sh
+  - t9138-git-svn-authors-prog.sh
+  - t9139-git-svn-non-utf8-commitencoding.sh
+  - t9140-git-svn-reset.sh
+  - t9141-git-svn-multiple-branches.sh
+  - t9142-git-svn-shallow-clone.sh
+  - t9143-git-svn-gc.sh
+  - t9144-git-svn-old-rev_map.sh
+  - t9145-git-svn-master-branch.sh
+  - t9146-git-svn-empty-dirs.sh
+  - t9150-svk-mergetickets.sh
+  - t9151-svn-mergeinfo.sh
+  - t9152-svn-empty-dirs-after-gc.sh
+  - t9153-git-svn-rewrite-uuid.sh
+  - t9154-git-svn-fancy-glob.sh
+  - t9155-git-svn-fetch-deleted-tag.sh
+  - t9156-git-svn-fetch-deleted-tag-2.sh
+  - t9157-git-svn-fetch-merge.sh
+  - t9200-git-cvsexportcommit.sh
+  - t9300-fast-import.sh
+  - t9301-fast-import-notes.sh
+  - t9350-fast-export.sh
+  - t9400-git-cvsserver-server.sh
+  - t9401-git-cvsserver-crlf.sh
+  - t9500-gitweb-standalone-no-errors.sh
+  - t9501-gitweb-standalone-http-status.sh
+  - t9502-gitweb-standalone-parse-output.sh
+  - t9600-cvsimport.sh
+  - t9601-cvsimport-vendor-branch.sh
+  - t9602-cvsimport-branches-tags.sh
+  - t9603-cvsimport-patchsets.sh
+  - t9700-perl-git.sh
+start_time: 1288483526
+stop_time: 1288483904
